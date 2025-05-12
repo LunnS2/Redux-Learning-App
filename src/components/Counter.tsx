@@ -20,7 +20,9 @@ export const Counter = () => {
         <button onClick={() => dispatch(incrementByAmount(10))}>
           Increment by 10
         </button>
-        <button onClick={() => dispatch(incrementAsync(10))}>Increment async</button>
+        <button onClick={() => dispatch(incrementAsync(10))}>
+          Increment async
+        </button>
       </div>
     </div>
   );
